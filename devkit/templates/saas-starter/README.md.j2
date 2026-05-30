@@ -1,0 +1,41 @@
+# {{ project_name }}
+
+A production-ready SaaS built with Next.js 14, Supabase, Stripe, and Auth.
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Copy environment variables
+cp .env.example .env.local
+# Edit .env.local with your Supabase and Stripe keys
+
+# Run database migrations
+npx prisma migrate dev
+
+# Start dev server
+npm run dev
+```
+
+## Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Database:** PostgreSQL via Supabase
+- **Auth:** Supabase Auth (magic link + OAuth)
+- **Payments:** Stripe
+- **ORM:** Prisma
+- **Styling:** Tailwind CSS
+- **Deploy:** Vercel
+
+## Features
+
+- [x] Authentication (email magic link, GitHub, Google)
+- [x] Subscription tiers (Free, Pro, Enterprise)
+- [x] Stripe checkout + webhook handling
+- [x] User dashboard with billing portal
+- [x] Rate limiting per tier
+- [x] API routes with auth middleware
+- [x] Dark mode
+- [x] Responsive design

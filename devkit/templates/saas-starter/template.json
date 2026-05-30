@@ -1,0 +1,10 @@
+{
+  "name": "saas-starter",
+  "description": "Next.js 14 + Supabase + Stripe + Auth — production-ready SaaS boilerplate. Includes auth, subscriptions, dashboard, billing portal, rate limiting, dark mode.",
+  "version": "1.0.0",
+  "price": 69,
+  "defaults": {
+    "node_version": "20",
+    "package_manager": "npm"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "cli-tool",
+  "description": "Simple Python CLI tool with typer, tests, and CI",
+  "version": "1.0.0",
+  "defaults": {
+    "python_version": "3.11"
+  }
+}
