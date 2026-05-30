@@ -1,0 +1,3 @@
+[submodule "landing"]
+	path = landing
+	url = https://github.com/bcc88-dev/saas-starter-kit.git
